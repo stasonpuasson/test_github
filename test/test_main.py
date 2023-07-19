@@ -1,6 +1,6 @@
 import pytest
 
-from src.main import calculate_tariff_payment
+from main import calculate_tariff_payment
 
 
 def test_calculate_tariff1000_used800():
