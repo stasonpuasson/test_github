@@ -3,7 +3,6 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-
 def calculate_tariff_payment(tariff_name: int, used_mb: float) -> float:
     if tariff_name == 5000:
         return 75 if used_mb <= 5000 else 75 + (used_mb - tariff_name) * 0.02
